@@ -15,12 +15,10 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.hover:hover {
+  background-color: rgb(115, 204, 204);
+}
+
+.hover {
+  background-color: teal;
 }
