@@ -1,17 +1,14 @@
+import Link from "next/link";
 import React from "react";
 
 const index = () => {
   return (
-    <div
-      style={{
-        height: "60px",
-        backgroundColor: "teal",
-        fontSize: "32px",
-        textAlign: "center",
-        padding: "10px",
-      }}
-    >
-      Products
+    <div style={{ margin: "10px" }}>
+      <h1 style={{ textAlign: "left" }}>Products</h1>
+
+      <li>
+        <Link href="/">Home</Link>
+      </li>
     </div>
   );
 };
